@@ -37,7 +37,9 @@
 			<?php $mixed[2] = "kass"; ?>
 			<?php $mixed[5] = "kass"; ?>
 			<?php$mixed[] = "hobune"; ?>
+		<pre>
 			<?php echo print_r($mixed); ?>
+		</pre>
    </body>
 
 </html>
