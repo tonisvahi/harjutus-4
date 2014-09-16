@@ -23,6 +23,21 @@
       			<?php echo "Kas {$float} on float? " . is_float($float); ?><br>
       			<?php echo "Kas {$integer} on number? " . is_numeric($integer); ?><br>
       			<?php echo "Kas {$float} on number? " . is_numeric($float); ?>
+      		<h2>Jadad (array)</h2>
+      			<?php $numbers = array(4, 8, 15, 16, 23, 42); ?>
+      			<?php echo $numbers[1]; ?><br>
+			<?php echo $numbers[0]; ?><br>
+			<?php echo $numbers[2]; ?><br>
+			<?php echo $numbers[3]; ?><br>
+			<?php echo $numbers[4]; ?><br>
+			<?php echo $numbers[5]; ?><br>
+			<?php $mixed = array(6, "rebane", "koer", 5.5, array("x", "y", "z")); ?><br>
+			<?php echo $mixed[2]; ?><br>
+			<?php echo $mixed[4][2]; ?><br>
+			<?php $mixed[2] = "kass"; ?>
+			<?php $mixed[5] = "kass"; ?>
+			<?php$mixed[] = "hobune"; ?>
+			<?php echo print_r($mixed); ?>
    </body>
 
 </html>
